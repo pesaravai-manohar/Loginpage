@@ -31,16 +31,11 @@ class CreateUser
     Scanner input=new Scanner(System.in);
 
     //defining variables
-    String Fname;
-    String Lname;
-    String phone;
-    String password;
-    String password1;
-    String password2;
+    String Fname,Lname,phone,password,password1,password2,username;
     Long Accnum=21364019020L;
     Long balance;
     int ifscCode;
-    String username;
+
     Boolean C = false;
 
 
